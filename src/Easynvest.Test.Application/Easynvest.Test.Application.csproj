@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Easynvest.Test.Domain\Easynvest.Test.Domain.csproj" />
+    <ProjectReference Include="..\Easynvest.Test.Infra\Easynvest.Test.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

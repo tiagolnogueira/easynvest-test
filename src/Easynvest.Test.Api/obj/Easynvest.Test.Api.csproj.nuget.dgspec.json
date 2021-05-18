@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Api\\Easynvest.Test.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Api\\Easynvest.Test.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Api\\Easynvest.Test.Api.csproj",
+        "projectName": "Easynvest.Test.Api",
+        "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Api\\Easynvest.Test.Api.csproj",
+        "packagesPath": "C:\\Users\\tinogueira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tinogueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://esppbr.pkgs.visualstudio.com/_packaging/ESPP-nuget-MASTER/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Application\\Easynvest.Test.Application.csproj": {
+                "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Application\\Easynvest.Test.Application.csproj"
+              },
+              "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj": {
+                "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj"
+              },
+              "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj": {
+                "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Application\\Easynvest.Test.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Application\\Easynvest.Test.Application.csproj",
+        "projectName": "Easynvest.Test.Application",
+        "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Application\\Easynvest.Test.Application.csproj",
+        "packagesPath": "C:\\Users\\tinogueira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tinogueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://esppbr.pkgs.visualstudio.com/_packaging/ESPP-nuget-MASTER/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj": {
+                "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj"
+              },
+              "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj": {
+                "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj",
+        "projectName": "Easynvest.Test.Domain",
+        "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj",
+        "packagesPath": "C:\\Users\\tinogueira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tinogueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://esppbr.pkgs.visualstudio.com/_packaging/ESPP-nuget-MASTER/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj",
+        "projectName": "Easynvest.Test.Infra",
+        "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\Easynvest.Test.Infra.csproj",
+        "packagesPath": "C:\\Users\\tinogueira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tinogueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://esppbr.pkgs.visualstudio.com/_packaging/ESPP-nuget-MASTER/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj": {
+                "projectPath": "C:\\Users\\tinogueira\\source\\repos\\Easynvest.Test\\src\\Easynvest.Test.Domain\\Easynvest.Test.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
